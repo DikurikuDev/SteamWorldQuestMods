@@ -1,0 +1,395 @@
+<Outset Name="new_game">
+	<Scenario StartEntity="sp_01">01_mushroom</Scenario>
+
+	<UnlockedAreas>
+		<Area>new_game</Area>
+	</UnlockedAreas>
+
+	<Heroes>
+		<Hero Definition="red">
+			<Level>99</Level>
+			<Weapon>red_weapon_01</Weapon>
+			<Deck Name="Custom Deck">
+				<Card Name="red_basicattack" Count="4" />
+				<Card Name="red_prowess" Count="2" />
+				<Card Name="red_braveslash" Count="2" />
+			</Deck>
+		</Hero>
+		<Hero Definition="blue">
+			<Level>99</Level>
+			<Weapon>blue_weapon_01</Weapon>
+			<Deck Name="Custom Deck">
+				<Card Name="blue_basicattack" Count="3" />
+				<Card Name="blue_flame" Count="2" />
+				<Card Name="blue_manabarrier" Count="2" />
+				<Card Name="blue_flamewave" Count="1" />
+			</Deck>
+		</Hero>
+		<Hero Definition="green">
+			<Level>99</Level>
+			<Weapon>green_weapon_01</Weapon>
+			<Deck Name="Custom Deck">
+				<Card Name="green_basicattack" Count="4" />
+				<Card Name="green_heal" Count="2" />
+				<Card Name="green_bodyblow" Count="2" />
+			</Deck>
+		</Hero>
+		<Hero Definition="yellow">
+			<Level>99</Level>
+			<Weapon>yellow_weapon_02</Weapon>
+			<Deck Name="Custom Deck">
+				<Card Name="yellow_basicattack" Count="4" />
+				<Card Name="yellow_calmingwisdom" Count="1" />
+				<Card Name="yellow_wrathstrike" Count="1" />
+				<Card Name="yellow_cycloneslash" Count="2" />
+			</Deck>
+		</Hero>
+		<Hero Definition="purple">
+			<Level>99</Level>
+			<Weapon>purple_weapon_03</Weapon>
+			<Deck Name="Custom Deck">
+				<Card Name="purple_basicattack" Count="4" />
+				<Card Name="purple_mug" Count="1" />
+				<Card Name="purple_cointoss" Count="1" />
+				<Card Name="purple_twinscombo" Count="2" />
+			</Deck>
+		</Hero>
+	</Heroes>
+
+	<CardCollection>
+		<Card Name="blue_aquaticimpact" Count="8" />
+		<Card Name="blue_arcanedetective" Count="8" />
+		<Card Name="blue_basicattack" Count="8" />
+		<Card Name="blue_berserkattack" Count="8" />
+		<Card Name="blue_blizzard" Count="8" />
+		<Card Name="blue_brainfreeze" Count="8" />
+		<Card Name="blue_counterattack" Count="8" />
+		<Card Name="blue_desire" Count="8" />
+		<Card Name="blue_doubt" Count="8" />
+		<Card Name="blue_elementary" Count="8" />
+		<Card Name="blue_elementshield" Count="8" />
+		<Card Name="blue_finalflash" Count="8" />
+		<Card Name="blue_firecounter" Count="8" />
+		<Card Name="blue_flame" Count="8" />
+		<Card Name="blue_flamelash" Count="8" />
+		<Card Name="blue_flamewave" Count="8" />
+		<Card Name="blue_flare" Count="8" />
+		<Card Name="blue_focus" Count="8" />
+		<Card Name="blue_frostcounter" Count="8" />
+		<Card Name="blue_glasscannon" Count="8" />
+		<Card Name="blue_inferno" Count="8" />
+		<Card Name="blue_lightningbolt" Count="8" />
+		<Card Name="blue_lightningdraw" Count="8" />
+		<Card Name="blue_lightningstorm" Count="8" />
+		<Card Name="blue_manabarrier" Count="8" />
+		<Card Name="blue_massbarrier" Count="8" />
+		<Card Name="blue_meteor" Count="8" />
+		<Card Name="blue_misdirection" Count="8" />
+		<Card Name="blue_nullify" Count="8" />
+		<Card Name="blue_powerdown" Count="8" />
+		<Card Name="blue_sleep" Count="8" />
+		<Card Name="blue_stormcounter" Count="8" />
+		<Card Name="blue_taintedcounter" Count="8" />
+		<Card Name="blue_thunder" Count="8" />
+		<Card Name="blue_thunderstorm" Count="8" />
+		<Card Name="green_basicattack" Count="8" />
+		<Card Name="green_berserkattack" Count="8" />
+		<Card Name="green_blind" Count="8" />
+		<Card Name="green_block" Count="8" />
+		<Card Name="green_bodyblow" Count="8" />
+		<Card Name="green_counterattack" Count="8" />
+		<Card Name="green_dmgbuff" Count="8" />
+		<Card Name="green_fairyward" Count="8" />
+		<Card Name="green_fixer" Count="8" />
+		<Card Name="green_guardian" Count="8" />
+		<Card Name="green_guillotinefist" Count="8" />
+		<Card Name="green_heal_aoe" Count="8" />
+		<Card Name="green_heal" Count="8" />
+		<Card Name="green_heavyattack" Count="8" />
+		<Card Name="green_invulnerability" Count="8" />
+		<Card Name="green_leech" Count="8" />
+		<Card Name="green_miracleworker" Count="8" />
+		<Card Name="green_moonveil" Count="8" />
+		<Card Name="green_overcharge" Count="8" />
+		<Card Name="green_poison" Count="8" />
+		<Card Name="green_powerplay" Count="8" />
+		<Card Name="green_punch1" Count="8" />
+		<Card Name="green_punch2" Count="8" />
+		<Card Name="green_punch3" Count="8" />
+		<Card Name="green_quickfix" Count="8" />
+		<Card Name="green_quiveringpalm" Count="8" />
+		<Card Name="green_regen" Count="8" />
+		<Card Name="green_shatter" Count="8" />
+		<Card Name="green_taintedcounter" Count="8" />
+		<Card Name="green_taunt" Count="8" />
+		<Card Name="green_tauntpunch" Count="8" />
+		<Card Name="green_tinkerer" Count="8" />
+		<Card Name="green_unshrouded" Count="8" />
+		<Card Name="green_waterbullet" Count="8" />
+		<Card Name="green_watergun" Count="8" />
+		<Card Name="green_waterstream" Count="8" />
+		<Card Name="purple_arcaneshock" Count="8" />
+		<Card Name="purple_basicattack" Count="8" />
+		<Card Name="purple_berserkattack" Count="8" />
+		<Card Name="purple_cointoss" Count="8" />
+		<Card Name="purple_counterattack" Count="8" />
+		<Card Name="purple_cullingaxe" Count="8" />
+		<Card Name="purple_darkmatter" Count="8" />
+		<Card Name="purple_darkstrike" Count="8" />
+		<Card Name="purple_deathpulse" Count="8" />
+		<Card Name="purple_deathsdoor" Count="8" />
+		<Card Name="purple_doom" Count="8" />
+		<Card Name="purple_doubleswing" Count="8" />
+		<Card Name="purple_drainaxe" Count="8" />
+		<Card Name="purple_draincurse" Count="8" />
+		<Card Name="purple_drainingwhirlwind" Count="8" />
+		<Card Name="purple_eclipse" Count="8" />
+		<Card Name="purple_epidemic" Count="8" />
+		<Card Name="purple_expose" Count="8" />
+		<Card Name="purple_focusedrage" Count="8" />
+		<Card Name="purple_hiddenblade" Count="8" />
+		<Card Name="purple_knifethrow" Count="8" />
+		<Card Name="purple_masspoison" Count="8" />
+		<Card Name="purple_mug" Count="8" />
+		<Card Name="purple_mystic" Count="8" />
+		<Card Name="purple_nightmare" Count="8" />
+		<Card Name="purple_patch" Count="8" />
+		<Card Name="purple_poisonedweapon" Count="8" />
+		<Card Name="purple_siphonmind" Count="8" />
+		<Card Name="purple_sleightofhand" Count="8" />
+		<Card Name="purple_spiketrap" Count="8" />
+		<Card Name="purple_stealstrength" Count="8" />
+		<Card Name="purple_survival" Count="8" />
+		<Card Name="purple_taintedcounter" Count="8" />
+		<Card Name="purple_terror" Count="8" />
+		<Card Name="purple_thorns" Count="8" />
+		<Card Name="purple_twinscombo" Count="8" />
+		<Card Name="purple_uncontrolledrage" Count="8" />
+		<Card Name="purple_virulence" Count="8" />
+		<Card Name="red_allin" Count="8" />
+		<Card Name="red_aspiringhero" Count="8" />
+		<Card Name="red_banesword" Count="8" />
+		<Card Name="red_basicattack" Count="8" />
+		<Card Name="red_berserkattack" Count="8" />
+		<Card Name="red_boldblow" Count="8" />
+		<Card Name="red_braveslash" Count="8" />
+		<Card Name="red_counterattack" Count="8" />
+		<Card Name="red_cripple" Count="8" />
+		<Card Name="red_desperationattack" Count="8" />
+		<Card Name="red_encourage" Count="8" />
+		<Card Name="red_execute" Count="8" />
+		<Card Name="red_fierybash" Count="8" />
+		<Card Name="red_firesword" Count="8" />
+		<Card Name="red_fireup" Count="8" />
+		<Card Name="red_heartbrokenhero" Count="8" />
+		<Card Name="red_inflame" Count="8" />
+		<Card Name="red_intercept" Count="8" />
+		<Card Name="red_lacerate" Count="8" />
+		<Card Name="red_physattackall" Count="8" />
+		<Card Name="red_predator" Count="8" />
+		<Card Name="red_prey" Count="8" />
+		<Card Name="red_prowess" Count="8" />
+		<Card Name="red_recklessswing" Count="8" />
+		<Card Name="red_shout" Count="8" />
+		<Card Name="red_smolder" Count="8" />
+		<Card Name="red_startlingstrike" Count="8" />
+		<Card Name="red_taintedcounter" Count="8" />
+		<Card Name="red_taunt" Count="8" />
+		<Card Name="red_trueheroes" Count="8" />
+		<Card Name="yellow_analyzeopponent" Count="8" />
+		<Card Name="yellow_ancientprotector" Count="8" />
+		<Card Name="yellow_basicattack" Count="8" />
+		<Card Name="yellow_berserkattack" Count="8" />
+		<Card Name="yellow_bleedingcut" Count="8" />
+		<Card Name="yellow_bushido" Count="8" />
+		<Card Name="yellow_calculatedstrike" Count="8" />
+		<Card Name="yellow_calmingwisdom" Count="8" />
+		<Card Name="yellow_confusingwind" Count="8" />
+		<Card Name="yellow_counterattack" Count="8" />
+		<Card Name="yellow_cycloneslash" Count="8" />
+		<Card Name="yellow_fascination" Count="8" />
+		<Card Name="yellow_flameenchant" Count="8" />
+		<Card Name="yellow_focusedhit" Count="8" />
+		<Card Name="yellow_haste" Count="8" />
+		<Card Name="yellow_healmind" Count="8" />
+		<Card Name="yellow_iceenchant" Count="8" />
+		<Card Name="yellow_lightningenchant" Count="8" />
+		<Card Name="yellow_melancholy" Count="8" />
+		<Card Name="yellow_momentumstrike" Count="8" />
+		<Card Name="yellow_origin" Count="8" />
+		<Card Name="yellow_piercingslash" Count="8" />
+		<Card Name="yellow_precisioncut" Count="8" />
+		<Card Name="yellow_rainofspears" Count="8" />
+		<Card Name="yellow_spiralcut" Count="8" />
+		<Card Name="yellow_taintedcounter" Count="8" />
+		<Card Name="yellow_tengudance" Count="8" />
+		<Card Name="yellow_whirlingslash" Count="8" />
+		<Card Name="yellow_wildluck" Count="8" />
+		<Card Name="yellow_windcall" Count="8" />
+		<Card Name="yellow_wrathstrike" Count="8" />
+		<Card Name="yellow_yojimbo" Count="8" />
+		<Card Name="yellow_yojimbocounter" Count="8" />
+	</CardCollection>
+
+	<GameplayFeatures>
+		<Feature>compendium_menu</Feature>
+		<Feature>deckbuilding_menu</Feature>
+		<Feature>equipment_menu</Feature>
+		<Feature>finisher_chains</Feature>
+		<Feature>heroic_chains</Feature>
+		<Feature>items_menu</Feature>
+		<Feature>normal_chains</Feature>
+		<Feature>redraw_cards</Feature>
+		<Feature>support_chains</Feature>
+		<Feature>switch_active_party</Feature>
+	</GameplayFeatures>
+
+	<Money>99999999</Money>
+
+	<EquipmentInventory>
+		<Item>WEAPON_RED</Item>
+		<Item>WEAPON_BLUE</Item>
+		<Item>WEAPON_GREEN</Item>
+		<Item>WEAPON_YELLOW</Item>
+		<Item>WEAPON_PURPLE</Item>
+		<Item>ACCESSORY</Item>
+		<Item>red_weapon_01</Item>
+		<Item>red_weapon_02</Item>
+		<Item>red_weapon_03a</Item>
+		<Item>red_weapon_03b</Item>
+		<Item>red_weapon_04a</Item>
+		<Item>red_weapon_04b</Item>
+		<Item>red_weapon_04c</Item>
+		<Item>red_weapon_05a</Item>
+		<Item>red_weapon_05b</Item>
+		<Item>red_weapon_05c</Item>
+		<Item>red_weapon_03_special</Item>
+		<Item>red_weapon_06b</Item>
+		<Item>red_weapon_06c</Item>
+		<Item>blue_weapon_01</Item>
+		<Item>blue_weapon_02</Item>
+		<Item>blue_weapon_03a</Item>
+		<Item>blue_weapon_03b</Item>
+		<Item>blue_weapon_04a</Item>
+		<Item>blue_weapon_04b</Item>
+		<Item>blue_weapon_04c</Item>
+		<Item>blue_weapon_05a</Item>
+		<Item>blue_weapon_05b</Item>
+		<Item>blue_weapon_05c</Item>
+		<Item>blue_weapon_06a</Item>
+		<Item>blue_weapon_06c</Item>
+		<Item>blue_weapon_07a</Item>
+		<Item>green_weapon_01</Item>
+		<Item>green_weapon_02</Item>
+		<Item>green_weapon_03a</Item>
+		<Item>green_weapon_03b</Item>
+		<Item>green_weapon_04a</Item>
+		<Item>green_weapon_04b</Item>
+		<Item>green_weapon_04c</Item>
+		<Item>green_weapon_05a</Item>
+		<Item>green_weapon_05b</Item>
+		<Item>green_weapon_05c</Item>
+		<Item>green_weapon_06a</Item>
+		<Item>green_weapon_06b</Item>
+		<Item>green_weapon_06c</Item>
+		<Item>yellow_weapon_02</Item>
+		<Item>yellow_weapon_03</Item>
+		<Item>yellow_weapon_04a</Item>
+		<Item>yellow_weapon_04b</Item>
+		<Item>yellow_weapon_05a</Item>
+		<Item>yellow_weapon_05b</Item>
+		<Item>yellow_weapon_05c</Item>
+		<Item>yellow_weapon_06a</Item>
+		<Item>yellow_weapon_06b</Item>
+		<Item>yellow_weapon_06c</Item>
+		<Item>purple_weapon_03</Item>
+		<Item>purple_weapon_04a</Item>
+		<Item>purple_weapon_04b</Item>
+		<Item>purple_weapon_05a</Item>
+		<Item>purple_weapon_05b</Item>
+		<Item>purple_weapon_05c</Item>
+		<Item>purple_weapon_06a</Item>
+		<Item>purple_weapon_06c</Item>
+		<Item>accessory_fireres</Item>
+		<Item>accessory_waterres</Item>
+		<Item>accessory_electricres</Item>
+		<Item>accessory_arcaneres</Item>
+		<Item>accessory_fireres2</Item>
+		<Item>accessory_waterres2</Item>
+		<Item>accessory_electricres2</Item>
+		<Item>accessory_arcaneres2</Item>
+		<Item>accessory_firedamage</Item>
+		<Item>accessory_waterdamage</Item>
+		<Item>accessory_electricdamage</Item>
+		<Item>accessory_arcanedamage</Item>
+		<Item>accessory_minorhp</Item>
+		<Item>accessory_mediumhp</Item>
+		<Item>accessory_majorhp</Item>
+		<Item>accessory_attackstats</Item>
+		<Item>accessory_attackstats2</Item>
+		<Item>accessory_attackstats3</Item>
+		<Item>accessory_allstats</Item>
+		<Item>accessory_allstats2</Item>
+		<Item>accessory_allstats3</Item>
+		<Item>accessory_nopoison</Item>
+		<Item>accessory_noburn</Item>
+		<Item>accessory_nobleed</Item>
+		<Item>accessory_noberserk</Item>
+		<Item>accessory_noconfuse</Item>
+		<Item>accessory_nocurse</Item>
+		<Item>accessory_regen</Item>
+		<Item>accessory_luck</Item>
+		<Item>accessory_luck2</Item>
+		<Item>accessory_dodge</Item>
+		<Item>accessory_steampressure</Item>
+		<Item>accessory_boostgen</Item>
+		<Item>accessory_wargod</Item>
+		<Item>accessory_wizard</Item>
+		<Item>accessory_sorcerer</Item>
+		<Item>accessory_regenribbon</Item>
+		<Item>accessory_pocketwatch</Item>
+		<Item>accessory_magvengeance</Item>
+		<Item>accessory_quake</Item>
+		<Item>accessory_ribbon</Item>
+		<Item>accessory_expegg</Item>
+		<Item>accessory_frostfire_ring</Item>
+		<Item>accessory_executioner</Item>
+		<Item>accessory_grow_badge</Item>
+		<Item>accessory_poison_dagger</Item>
+		<Item>accessory_critical_strike</Item>
+		<Item>accessory_counterattack</Item>
+		<Item>accessory_physguard</Item>
+		<Item>accessory_magguard</Item>
+		<Item>accessory_bruteforce</Item>
+		<Item>accessory_deathleech</Item>
+		<Item>accessory_shockarmor</Item>
+		<Item>accessory_pandora</Item>
+		<Item>accessory_giantslayer</Item>
+		<Item>accessory_guts</Item>
+		<Item>accessory_shredder</Item>
+		<Item>accessory_berserkring</Item>
+	</EquipmentInventory>
+
+	<Consumables>
+		<Consumable Id="antitoxin" Count="999" />
+		<Consumable Id="moonjuice" Count="999" />
+		<Consumable Id="repairkit_full" Count="999" />
+		<Consumable Id="repairkit_large" Count="999" />
+		<Consumable Id="repairkit_small" Count="999" />
+		<Consumable Id="revive" Count="999" />
+		<Consumable Id="sedative" Count="999" />
+	</Consumables>
+
+	<CraftMaterials>
+		<CraftMaterial Id="fire_basic" Count="9999" />
+		<CraftMaterial Id="fire_special" Count="9999" />
+		<CraftMaterial Id="metal_basic" Count="9999" />
+		<CraftMaterial Id="metal_special" Count="9999" />
+		<CraftMaterial Id="mysterious_basic" Count="9999" />
+		<CraftMaterial Id="mysterious_special" Count="9999" />
+		<CraftMaterial Id="nature_basic" Count="9999" />
+		<CraftMaterial Id="nature_special" Count="9999" />
+		<CraftMaterial Id="spooky_basic" Count="9999" />
+		<CraftMaterial Id="spooky_special" Count="9999" />
+	</CraftMaterials>
+</Outset>
