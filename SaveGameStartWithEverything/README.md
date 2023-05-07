@@ -3,7 +3,7 @@
 A save game for game modding testing purposes, featuring:
 
 - All 8 of each card, even those noncollectable;
-- All heroes, with maxed-out level;
+- All heroes, with maxed-out levels;
 - All items, even those unobtainable;
 - All consumables;
 - All craft materials;
