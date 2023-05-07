@@ -9,7 +9,7 @@ A save game for game modding testing purposes, featuring:
 - All items, even those unobtainable;
 - All consumables;
 - All craft materials;
-- All game features unlocked;
+- All game features are unlocked;
 
 ## Instructions
 
