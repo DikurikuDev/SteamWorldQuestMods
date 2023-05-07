@@ -1,8 +1,10 @@
 # (SAVE GAME) START WITH EVERYTHING (1.0)
 
+[![Savegame Start With Everything (Showcase)](https://img.youtube.com/vi/IgumNQg8AjU/0.jpg)](https://www.youtube.com/watch?v=IgumNQg8AjU "Savegame Start With Everything (Showcase)")
+
 A save game for game modding testing purposes, featuring:
 
-- All 8 of each card, even those noncollectable;
+- 8 of each card, even those noncollectable;
 - All heroes, with maxed-out level;
 - All items, even those unobtainable;
 - All consumables;
