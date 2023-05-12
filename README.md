@@ -9,6 +9,12 @@ overhaul version.
 
 - [SteamyWorld](https://github.com/DikurikuDev/SteamyWorld)
 
-## Mods
+## Tools
 
 - [(SAVE GAME) START WITH EVERYTHING (1.0)](SaveGameStartWithEverything/README.md)
+- [Lua Declaration (1.2)](luaDeclaration/README.md)
+
+## Game information
+
+- version: 2.1
+- plataform: GOG
