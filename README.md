@@ -12,7 +12,7 @@ overhaul version.
 ## Tools
 
 - [(SAVE GAME) START WITH EVERYTHING (1.0)](SaveGameStartWithEverything/README.md)
-- [Lua Declaration (1.2)](luaDeclaration/README.md)
+- [(DEVELOPMENT TOOLS) Lua Declaration (1.2)](luaDeclaration/README.md)
 
 ## Game information
 
